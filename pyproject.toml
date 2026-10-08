@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=77.0.3"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cache-header-contract"
+version = "0.1.0"
+description = "Preserve repeated fields, detect duplicate directives and malformed TTLs, assert required/forbidden directives, shared-TTL caps and Vary headers."
+requires-python = ">=3.10"
+readme = "README.md"
+license = "MIT"
+authors = [{name = "Nripanka Das"}]
+dependencies = []
+
+[project.scripts]
+cache-header-contract = "cache_header_contract:main"
+
+[project.urls]
+Repository = "https://github.com/nripankadas07/cache-header-contract"
+Issues = "https://github.com/nripankadas07/cache-header-contract/issues"
+
+[tool.setuptools]
+py-modules = ["cache_header_contract"]

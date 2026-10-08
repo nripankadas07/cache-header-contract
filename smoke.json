@@ -1,0 +1,23 @@
+[
+  {
+    "args": [
+      "headers.json",
+      "contract.json"
+    ],
+    "exit": 0
+  },
+  {
+    "args": [
+      "headers.json",
+      "bad-contract.json"
+    ],
+    "exit": 1
+  },
+  {
+    "args": [
+      "invalid.json",
+      "contract.json"
+    ],
+    "exit": 2
+  }
+]

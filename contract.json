@@ -1,0 +1,12 @@
+{
+  "require": [
+    "public"
+  ],
+  "forbid": [
+    "private"
+  ],
+  "max_shared_ttl": 30,
+  "vary": [
+    "accept-encoding"
+  ]
+}
